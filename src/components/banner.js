@@ -24,9 +24,9 @@ const Banner = () => {
                     <div className="main-text">Hey Friend</div>
                 </div>
             </div>
-            <div style={{position: "absolute", bottom: "30px"}} onClick={() => {window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}}>
+            {/* <div style={{position: "absolute", bottom: "30px"}} onClick={() => {window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}}>
               CLICK ME
-            </div>
+            </div> */}
         </div>
         )
 }

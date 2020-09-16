@@ -58,20 +58,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     {
-      resolve:  `gatsby-plugin-mdx`, 
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-source-filesystem`, 
-            options: {
-              maxWidth: 1200, 
-              path: `${__dirname}/src/images`,
-            }, 
-          },
-        ],
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
