@@ -15,6 +15,7 @@ const AboutPage = () => (
     <p>I am currently working as data analyst at Twitch, and I'm interested in data analysis and machine learning. </p>
     <p>In my spare time, I'm passionate about fashion styling and food exploring.</p>
     <p>I love music and I have a variety of favorite musicians with diverse genres, Illenium, Novo Amor, Kenshi Yonezu, Zoey Yung etc.. So many that I cannot name them all!!!</p>
+    <p>During Covid19, I've been developing new hobbies at home, such as drawing, reading, watching movies and playing legos, which bring me enough inner peace into my life during this overwhelming period.</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

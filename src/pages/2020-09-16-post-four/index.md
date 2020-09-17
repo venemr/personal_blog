@@ -1,7 +1,7 @@
 ---
 path: "/blog/post-four"
 date: "2020-09-16"
-title: "Learning Politics Science 101" 
+title: "A Glimpse to Political Science 101" 
 author: "Mengru Fu"
 ---
 

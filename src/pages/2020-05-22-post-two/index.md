@@ -21,6 +21,6 @@ Recently I found a really cool youtuber [Gal Shir](https://www.youtube.com/chann
 
 
 ### Starry Night with Smoke 
-I got my initial inspiration from Vincent Van Gogh's famouse Starry Light painting to create my drawing to present a blurry night with orange and ashy sky, filled with wildfire smoke in Bay Area. It is a little depressing during the days when you can only sit indoors with windows shut down and live with air purifiers turned on for 7/24. The nature is showing us dangerous signs that climate change is real as each summer gets hotter and hotter and we as a community should take actions to protect our nature and reduce occurrence of wildfires. 
+I got my initial inspiration from Vincent Van Gogh's famous Starry Light painting to create my drawing to present a blurry night with orange and ashy sky, filled with wildfire smoke in Bay Area. It is a little depressing during the days when you can only sit indoors with windows shut down and live with air purifiers turned on for 7/24. The nature is showing us dangerous signs that climate change is real as each summer gets hotter and we as a community should take actions to protect our nature and reduce occurrence of wildfires. 
 
 ![third img](/starrynight.jpg)
