@@ -11,11 +11,11 @@ export default function Template({data}) {
     return (
     <Layout>
         <div>
-            <Link to="/blog">Go Back</Link>
-            <hr />
+            <hr></hr>
             <h1>{post.frontmatter.title}</h1>
             <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4>
             <div dangerouslySetInnerHTML={{__html: post.html}} />
+            <Link to="/blog">Go Back</Link>
         </div>
     </Layout>
     )
