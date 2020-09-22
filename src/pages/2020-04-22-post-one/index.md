@@ -7,6 +7,10 @@ author: "Mengru Fu"
 
 ![sushi img](/peppapig.jpg)
 
+Recently I've been learning Japanese as my third language using an app called Duolingo. I'm super passionate about learning Japanese with a hope that I can have basic conversations next time visiting Japan and more importantly, I can better understand Japanese songs and animes which would be super cool.
+
+The followings are summarized notes based on my recent learnings from Duolingo: 
+
 ## Greetings 
 こんにちわ：Hello <br/>
 よろしく：Nice to meet you (less formal) <br/>
