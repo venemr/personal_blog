@@ -7,11 +7,14 @@ import SEO from "../components/seo"
 const BlogPage = ({data}) => (
   <Layout>
     <SEO title="Blog" />
-    <h1>Hello and Welcome to my personal blog</h1>
+    <h1>Hello and welcome to my personal blog</h1>
     {data.allMarkdownRemark.edges.map(post => (
         <div key={post.node.id}>
             <h3>{post.node.frontmatter.title}</h3>
-            <small>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
+            <div><middle>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date} |  In {post.node.frontmatter.tags} |  Last Updated on {post.node.frontmatter.updated_on}</middle></div>
+            <br /> 
+            <div><img alt='cover pic' src={post.node.frontmatter.featuredImage}></img></div>
+            <div>{post.node.excerpt}</div>
             <br />
             <br />
             <Link to={post.node.frontmatter.path}>Read More</Link>
@@ -35,7 +38,11 @@ export const pageQuery = graphql`
             date
             path
             title
+            updated_on
+            featuredImage
+            tags
           }
+          excerpt(pruneLength: 500)
         }
       }
     }

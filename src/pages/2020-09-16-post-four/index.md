@@ -3,6 +3,9 @@ path: "/blog/post-four"
 date: "2020-09-16"
 title: "A Glimpse to American Politics" 
 author: "Mengru Fu"
+updated_on: "2020-09-22"
+featuredImage: "/american_politics.jpg"
+tags: "Politics"
 ---
 
 I wrote this down in my blog because I would like to share my own experience and learnings as an immigrant who might not know much about American Politics, and help people like me to fight through similar struggles.

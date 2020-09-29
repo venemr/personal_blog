@@ -3,6 +3,9 @@ path: "/blog/post-three"
 date: "2020-05-25"
 title: "Sharing My Cocktail Recipes" 
 author: "Mengru Fu"
+updated_on: "2020-08-01"
+featuredImage: "/little_italy.jpg"
+tags: "Hobbies"
 ---
 
 I created this blog to collect cocktail recipes for whoever loves self-making cocktails at home. 

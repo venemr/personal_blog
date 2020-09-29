@@ -15,6 +15,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
                 date
                 path
                 title
+                updated_on
+                featuredImage
+                tags
               }
             }
           }

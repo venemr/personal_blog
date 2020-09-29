@@ -3,13 +3,16 @@ path: "/blog/post-one"
 date: "2020-04-22"
 title: "Learn Japanese Using Duolingo" 
 author: "Mengru Fu"
+updated_on: "2020-07-04"
+featuredImage: "/thousand_cranes.jpg"
+tags: "Hobbies"
 ---
-
-![sushi img](/peppapig.jpg)
 
 Recently I've been learning Japanese as my third language using an app called Duolingo. I'm super passionate about learning Japanese with a hope that I can have basic conversations next time visiting Japan and more importantly, I can better understand Japanese songs and animes which would be super cool.
 
 The followings are summarized notes based on my recent learnings from Duolingo: 
+
+![sushi img](/peppapig.jpg)
 
 ## Greetings 
 こんにちわ：Hello <br/>

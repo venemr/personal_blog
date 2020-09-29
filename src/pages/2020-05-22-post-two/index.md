@@ -3,6 +3,9 @@ path: "/blog/post-two"
 date: "2020-05-22"
 title: "Procreate: Drawing is Fun" 
 author: "Mengru Fu"
+updated_on: "2020-09-12"
+featuredImage: "/starrynight.jpg"
+tags: "Hobbies"
 ---
 I just started drawing using an app called "Procreate" on iPad to gain some innner peace and have fun during homestay under quarantine!
 
