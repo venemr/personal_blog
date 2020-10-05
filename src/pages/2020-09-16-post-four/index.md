@@ -12,17 +12,7 @@ I wrote this down in my blog because I'd like to share my own experience and lea
 
 What is Politics? What does it mean of being political? How important is it to build political awareness? 
 
-Mahatma Gandhi once described the Seven Social Sins as:
-"
-   Wealth without work.
-   Pleasure without conscience.
-   Knowledge without character.
-   Commerce without morality.
-   Science without humanity.
-   Worship without sacrifice.
-   Politics without principle.
-" 
-My understanding is before talking about any politics, it is essential to construct a set of principles to define and picture yourself politically. If there is no principle set in your mind, there is nothing you can depend on to give your political opinions. As an immigrant, I used to define myself as a non-political person because I tended to see a lot of the grey middle ground in politics and I ended up getting lost in the confusing wordings from the political news. However, I gradually learned that politics is a more complex topic, and it's not just about government and policies, but instead, almost everything in daily life can be turned into political discussions, and it's nearly impossible to avoid being political. Indeed, being politically ignorant is also a form of being political, which you just choose to give up your civil rights and be led by others -- this is not what I want. I'd love to share my opinions on controversial issues to come up with better options, but the dilemma that I realized later on to raise my political awareness is the lack of fundamental knowledge about politics. Luckily, political awareness is not innate and it can be developed through practice.  
+Mahatma Gandhi once described the Seven Social Sins as: "Wealth without work. Pleasure without conscience. Knowledge without character. Commerce without morality. Science without humanity Worship without sacrifice. Politics without principle." My understanding is before talking about any politics, it is essential to construct a set of principles to define and picture yourself politically. If there is no principle set in your mind, there is nothing you can depend on to give your political opinions. As an immigrant, I used to define myself as a non-political person because I tended to see a lot of the grey middle ground in politics and I ended up getting lost in the confusing wordings from the political news. However, I gradually learned that politics is a more complex topic, and it's not just about government and policies, but instead, almost everything in daily life can be turned into political discussions, and it's nearly impossible to avoid being political. Indeed, being politically ignorant is also a form of being political, which you just choose to give up your civil rights and be led by others -- this is not what I want. I'd love to share my opinions on controversial issues to come up with better options, but the dilemma that I realized later on to raise my political awareness is the lack of fundamental knowledge about politics. Luckily, political awareness is not innate and it can be developed through practice.  
 
 ### A Long Path I Took to Raise Political Awareness
 
@@ -42,6 +32,6 @@ Currently, I'm learning American History by watching [US History Lessons](https:
 
 An interesting book that I read recently is named "Born A Crime", an autobiography book written by my favorite comedian Trevor Noah, and it helped me learn the Apartheid that he's experienced during his early childhood life in South Africa as a colored person. I'm impressed by his strong heart and broad mind of identifying himself in a community surrounded by Apartheid. I love his narration because Trevor is so talented at interpreting some hard facts in a humorous way that made people laugh and think out loud at the same time, and he has the ability that has always been my life motto -- digesting hard feelings inside, but still keeping a positive mind and a kind heart in embracing all the encounterings that came into my life, to love, to learn, and to grow.   
 
-The other thing that I kept doing recently is to check out Twitter daily, and I feel it's super useful to learn from Trending News to keep an eye on what's happening in the US and read comments under popular tweets to learn about different opinions and voices about politics. Inspired by a Netflix documentary I recently watched as "Social Dilemma", I explicitly made myself to follow users who have different opinions than I do, to view and think critically from both sides. 
+The other thing that I kept doing recently is to check out Twitter daily, and I feel it's super useful to learn from Trending News to keep an eye on what's happening in the US and read comments under popular tweets to learn about different opinions and voices about politics. Inspired by a Netflix documentary I recently watched as "Social Dilemma", I explicitly made myself to follow users who have different opinions than I do, in order to view and think critically from both sides. 
 
 I'm trying to take baby steps at a time and being selective on materials to watch and learn with the hope to build enough political awareness one day. I know change doesn't happen overnight, but I'm being determined and optimistic (as always) to learn and grow to be a better version of myself. 
