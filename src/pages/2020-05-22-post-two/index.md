@@ -3,7 +3,7 @@ path: "/blog/post-two"
 date: "2020-05-22"
 title: "Procreate: Drawing is Fun" 
 author: "Mengru Fu"
-updated_on: "2020-09-12"
+updated_on: "2020-10-04"
 featuredImage: "/starrynight.jpg"
 tags: "Hobbies"
 ---
@@ -27,3 +27,16 @@ Recently I found a really cool youtuber [Gal Shir](https://www.youtube.com/chann
 I got my initial inspiration from Vincent Van Gogh's famous Starry Light painting to create my drawing to present a blurry night with orange and ashy sky, filled with wildfire smoke in Bay Area. It is a little depressing during the days when you can only sit indoors with windows shut down and live with air purifiers turned on for 7/24. The nature is showing us dangerous signs that climate change is real as each summer gets hotter and we as a community should take actions to protect our nature and reduce occurrence of wildfires. 
 
 ![third img](/starrynight.jpg)
+
+
+### Watery Waves 
+A practice painting to learn the usage of Distort and Gaussian Blur effects to make a 3D effect by drawing the watery waves with a penetration of sunlight. I think it's fun to explore new techniques occassionally to recharge and inspire myself. Also, not sure if it's a psychological thing, but I often feel myself in a peaceful and soothing mind when drawing in blue colors. #:blue_heart:
+
+![fourth img](/water_waves.jpg)
+
+
+### First Trial in Making Illustrations
+I've always wanted to try out illustration styled painting, and has been daydreaming to become an illustrator some day LOL. Here is my first trial in making illustration paintings, and it is a blue-haired girl who's watering her favorite plants at the window in a warmy sunday afternoon. 
+![fifth img](/girl_watering_plant.jpg)
+
+
