@@ -3,7 +3,7 @@ path: "/blog/post-one"
 date: "2020-04-22"
 title: "Learn Japanese Using Duolingo" 
 author: "Mengru Fu"
-updated_on: "2020-07-04"
+updated_on: "2020-10-06"
 featuredImage: "/thousand_cranes.jpg"
 tags: "Hobbies"
 ---
@@ -35,8 +35,19 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 ## Conversations 
 日本人です（nihonjin desu）: I am Japanese. <br/>
 学生です（gakusei desu）: I am a student. <br/>
+先生です（sensei desu): I am a teacher. <br/>
 イギリス出身です (igirisu shusshin desu): I am from England. <br/>
 英語がは話せます（eigo ga hanase masu）: I can speak English. <br/>
+ジョンさんはイタリス語が話せます。（jyo n san ha i ta ri su go ga hanase masu): John can speak Italian. <br/>
+マリアさんはスペイン語が話せます。（maria san ha su pe i n go ga hanase masu): Maria can speak Spanish. <br/>
+僕は英語が話せます。(boku ha eigo ga hanase masu): I can speak English. <br/>
+フランス語が話せますか？（fu ra n su go ga hanase masuka): Can you speak French? <br/>
+何ですか？(na n desuka): what is it? <br/>
+お名前は何ですか？(o namae ha nan desuka): what is your name? <br/>
+僕の名前は本田さくるです。(boku no namae ha honda sakura desu): my name is Sakura Honda. <br/>
+わかりません（wa ka ri ma se n): i don't understand. <br/>
+はい、私の物（もの）です。(hai, watashi no mo no desu): yes, it is mine. <br/>
+はじめまして、中村と言います。(ha ji me ma shi te, nakamura to iimasu): nice to meet you, I'm Nakamura. <br/>
 
 ## Vocabulary
 いち：one <br/>
@@ -63,7 +74,15 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 きっぷ: ticket <br/>
 がっこう: school <br/>
 
-アメリカ: The US
+アメリカ: The US <br/>
+
+僕（ぼく）: I <br/>
+元気（げんき）<br/>
+出身（しゅつしん）shusshin: from<br/> 
+
+茂（しげる）：shigeru (name) <br/>
+中村（なかむら）: nakamura (name) <br/>
+田中（たなか）：tanaka (name) <br/>
 
 
 ## Character
