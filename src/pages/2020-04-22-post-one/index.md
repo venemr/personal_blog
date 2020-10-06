@@ -29,9 +29,14 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 こんばんわ: Good evening  <br/>
 おやしみなさい: Good night  <br/>
 はい：yes <br/> 
+お元気ですか？（o genki desu ka）: How are you? <br/>
+いいえ、元気ではありません（iie, genki dewa arimasen）: no, I am not doing well. <br/> 
 
 ## Conversations 
-
+日本人です（nihonjin desu）: I am Japanese. <br/>
+学生です（gakusei desu）: I am a student. <br/>
+イギリス出身です (igirisu shusshin desu): I am from England. <br/>
+英語がは話せます（eigo ga hanase masu）: I can speak English. <br/>
 
 ## Vocabulary
 いち：one <br/>
@@ -61,61 +66,49 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 アメリカ: The US
 
 
-## Hiragana
-あ：a <br/>
-い：i <br/>
-う：u <br/>
-え：e <br/>
-お：o <br/>
+## Character
+|Hiragana                                                            |   
+| :--------- | :---------- | :----------- | :---------- | :----------- |
+| `あ：a`     | `い：i`      | `う：u`      | `え：e`      | `お：o`      |  
+| `か：ka` #:arrow_right: `が：ga`     | `き：ki` #:arrow_right: `ぎ：gi`     | `く：ku` #:arrow_right: `ぐ：gu`      | `け：ke` #:arrow_right: `げ：ge`      | `こ：ko` #:arrow_right: `ご：go`      |
+| `ま：ma`     | `み：mi`     | `む：mu`      | `め：me`      | `も：mo`      |
+| `な：na`     | `に：ni`     | `ぬ：nu`      | `ね：ne`      | `の：no`      |
+| `ら：ra`     | `り：ri`     | `る：ru`      | `れ：re`      | `ろ：ro`      |
+| `さ：sa` #:arrow_right: `ざ: za` | `し：shi` #:arrow_right: `じ: ji`      | `す：su` #:arrow_right: `ず: zu`      | `せ：se` #:arrow_right: `ぜ: ze`      | `そ：so` #:arrow_right: `ぞ: zo`      |
+| `た：ta` #:arrow_right: `だ: da` | `ち：chi` #:arrow_right: `ぢ: ji (di)`      | `つ：tsu` #:arrow_right: `づ: zu (du)`      | `て：te` #:arrow_right: `で: de`      | `と：to` #:arrow_right: `ど: do`      |
+| `は：ha` #:arrow_right: `ば: ba` #:arrow_right: `ぱ: pa`     | `ひ：hi` #:arrow_right: `び: bi` #:arrow_right: `ぴ: pi`     | `ふ：fu` #:arrow_right: `ぶ: bu` #:arrow_right: `ぷ: pu`    | `へ：he` #:arrow_right: `べ: be` #:arrow_right: `ぺ: pe`      | `ほ：ho` #:arrow_right: `ぼ: bo` #:arrow_right: `ぽ: po`      |
+| `や: ya`     |            | `ゆ: yu`     |         | `よ: yo`     |
+| `わ: wa`     |            | 　　　　　    |         | `を: wo`     |
+| `ん: n`     |            | 　　　　　    |         | 　　　　　     |
+| `きゃ: kya` #:arrow_right: `ぎゃ: gya`   |            | `きゅ: kyu` #:arrow_right: `ぎゅ: gyu`     |         | `きょ: kyo` #:arrow_right: `ぎょ: gyo`     |
+| `にゃ: nya`   |            | `にゅ: nyu`     |         | `にょ: nyo`     |
+| `りゃ: rya`   |            | `りゅ: ryu`     |         | `りょ: ryo`     |
+| `しゃ: sha`   |            | `しゅ: shu`     | `しぇ: she`        | `しょ: sho`     |
+| `ちゃ: cha` #:arrow_right: `じゃ: ja`   |            | `ちゅ: chu` #:arrow_right: `じゅ: ju`     | `ちぇ: che` #:arrow_right: `じぇ: je`        | `ちょ: cho` #:arrow_right: `じょ: jo`     |
+| `ひゃ: hya` #:arrow_right: `びゃ: bya` #:arrow_right: `ぴゃ: pya`   |            | `ひゅ: hyu` #:arrow_right: `びゅ: byu` #:arrow_right: `ぴゅ: pyu`     |         | `ひょ: hyo` #:arrow_right: `びょ: byo` #:arrow_right: `ぴょ: pyo`     |
 
-か：ka -> が：ga <br/>
-き：ki -> ぎ：gi <br/>
-く：ku -> ぐ：gu <br/>
-け：ke -> げ：ge <br/>
-こ：ko -> ご：go <br/>
 
-な：na <br/>
-に：ni <br/>
-ぬ：nu <br/>
-ね：ne <br/>
-の：no <br/>
 
-ま：ma <br/>
-み：mi <br/>
-む：mu <br/>
-め：me <br/>
-も：mo <br/>
+|Katagana                                                          |   
+| :--------- | :---------- | :----------- | :---------- | :----------- |
+| `ア：a`     | `イ：i`      | `ウ：u`      | `エ：e`      | `オ：o`      |
+| `カ：ka` #:arrow_right: `ガ：ga`    | `キ：ki` #:arrow_right: `ギ：gi`     | `ク：ku` #:arrow_right: `グ：gu`     | `ケ：ke` #:arrow_right: `ゲ：ge`      | `コ：ko` #:arrow_right: `ゴ：go`     |
+| `マ：ma`     | `ミ：mi`      | `ム：mu`      | `メ：me`      | `モ：mo`      |
+| `ナ：na`     | `ニ：ni`      | `ヌ：nu`      | `ネ：ne`      | `ノ：no`      |
+| `ラ：ra`     | `リ：ri`      | `ル：ru`      | `レ：re`      | `ロ：ro`      |
+| `サ：sa` #:arrow_right: `ザ: za` | `シ：shi` #:arrow_right: `ジ: ji`      | `ス：su` #:arrow_right: `ズ: zu`      | `セ：se` #:arrow_right: `ゼ: ze`      | `ソ：so` #:arrow_right: `ゾ: zo`      |
+| `タ：ta` #:arrow_right: `ダ: da` | `チ：chi` #:arrow_right: `ヂ: ji (di)`      | `ツ：tsu` #:arrow_right: `ヅ: zu (du)`      | `テ：te` #:arrow_right: `デ: de`      | `ト：to` #:arrow_right: `ド: do`      |
+| `ハ：ha` #:arrow_right: `バ: ba` #:arrow_right: `パ: pa`     | `ヒ：hi` #:arrow_right: `ビ: bi` #:arrow_right: `ピ: pi`     | `フ：fu` #:arrow_right: `ブ: bu` #:arrow_right: `プ: pu`    | `ヘ：he` #:arrow_right: `ベ: be` #:arrow_right: `ペ: pe`      | `ホ：ho` #:arrow_right: `ボ: bo` #:arrow_right: `ポ: po`      |
+| `ヤ: ya`     |            | `ユ: yu`     |         | `ヨ: yo`     |
+| `ワ: wa`     |            | 　　　　　　　 |         | `ヲ: wo`     |
+| `ン: n`     |            | 　　　　　    |         | 　　　　　     |
+| `キャ: kya` #:arrow_right: `ギャ: gya`   |            | `キュ: kyu` #:arrow_right: `ギュ: gyu`     |         | `キョ: kyo` #:arrow_right: `ギョ: gyo`     |
+| `ニャ: nya`   |            | `ニュ: nyu`     |         | `ニョ: nyo`     |
+| `リャ: rya`   |            | `リュ: ryu`     |         | `リョ: ryo`     |
+| `シャ: sha`   |            | `シュ: shu`     | `シェ: she`        | `ショ: sho`     |
+| `チャ: cha` #:arrow_right: `ジャ: ja`   |            | `チュ: chu` #:arrow_right: `ジュ: ju`     | `チェ: che` #:arrow_right: `ジェ: je`        | `チョ: cho` #:arrow_right: `ジョ: jo`     |
+| `ヒャ: hya` #:arrow_right: `ビャ: bya` #:arrow_right: `ピャ: pya`   |            | `ヒュ: hyu` #:arrow_right: `ビュ: byu` #:arrow_right: `ピュ: pyu`     |         | `ヒョ: hyo` #:arrow_right: `ビョ: byo` #:arrow_right: `ピョ: pyo`     |
 
-ら：ra <br/>
-り：ri <br/>
-る：ru <br/>
-れ：re <br/>
-ろ：ro <br/>
-
-さ：sa -> ざ: za <br/>
-し：shi -> じ: ji <br/>
-す：su -> ず: zu <br/>
-せ：se -> ぜ: ze <br/>
-そ：so -> ぞ: zo <br/>
-
-た：ta -> だ: da <br/>
-ち：chi ->　ぢ: di <br/>
-つ：tsu -> づ: du <br/>
-て：te -> で: de <br/>
-と：to -> ど: do <br/>
-
-は：ha -> ば: ba -> ぱ: pa <br/>
-ひ：hi -> び: bi -> ぴ: pi <br/>
-ふ：fu -> ぶ: bu -> ぷ: pu <br/>
-へ：he -> べ: be -> ぺ: pe <br/>
-ほ：ho -> ぼ: bo -> ぽ: po <br/>
-
-## Katagana 
-ア：
-カ：
-リ：
-シ：
-マ：
 
 
 
