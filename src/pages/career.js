@@ -131,7 +131,7 @@ const CareerPage = () => (
     </TimelineItem>
 
   </Timeline>
-  <Link to="/">Go back to the homepage</Link>
+  <button className='button-link'><Link to="/" className='button-link'>&#60;&#60; Back to Homepage</Link></button>
 </Layout>
 )
 

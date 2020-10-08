@@ -78,26 +78,59 @@ header {
     background-color: $white;
     position: relative;
     height: 100vh;
-    .row {
-        position: relative;
-        .main-text {
-            font-size: 5.0rem;
-            text-transform: uppercase;
-            letter-spacing: 42px;
-            font-weight: 700;
-            color: $white;
+    .block-reveal {
+            align-items: flex-start;
+            display: inline-block; 
+            flex-direction: column; 
             position: absolute;
-            width: 100%;
+            top: 50%;
             left: 0; 
-            top: 50%; 
-            transform: translateY(-50%);
-            text-align: center;
-            mix-blend-mode: difference;
-            z-index: 0;
-            @media (max-width: 1440px) {
-                font-size: 4.4rem;
-                letter-spacing: 36px;
-            }       
         }
+    .block-reveal span {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+    .bottom-arrow:after {
+            content:'';
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 0;
+            height: 0;
+            border-top: 25px solid palevioletred;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
     }
+}
+
+//link -- for blog titles
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+//button and link -- for back to homepage
+.button-link {
+    background-color: lightpink;
+    color: #ffffff;
+    border-radius:6px;
+    border:1px solid lightpink;
+    font-weight:bold;
+    display:inline-block;
+    text-decoration:none;
+    font-size:15px;
+}
+
+//button and link -- for read more
+.read-more-link {
+    background-color: #f9f9f9;
+    color: grey;
+    border-radius:6px;
+    border:1px solid #f9f9f9;
+    font-weight:bold;
+    display:inline-block;
+    text-decoration:none;
+    font-size:15px;
 }

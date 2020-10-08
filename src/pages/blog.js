@@ -10,20 +10,26 @@ const BlogPage = ({data}) => (
     <h1>Hello and welcome to my personal blog</h1>
     {data.allMarkdownRemark.edges.map(post => (
         <div key={post.node.id}>
-            <h3>{post.node.frontmatter.title}</h3>
+            <h3>
+              <Link className="text-link" to={post.node.frontmatter.path}>
+                {post.node.frontmatter.title}
+              </Link>
+            </h3>
             <div><middle>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date} |  In {post.node.frontmatter.tags} |  Last Updated on {post.node.frontmatter.updated_on}</middle></div>
             <br /> 
             <div><img alt='cover pic' src={post.node.frontmatter.featuredImage}></img></div>
             <div>{post.node.excerpt}</div>
             <br />
             <br />
-            <Link to={post.node.frontmatter.path}>Read More</Link>
+            <button className="read-more-link">
+              <Link to={post.node.frontmatter.path} className="read-more-link">Read More &#62;&#62;</Link>
+            </button>
             <br />
             <br />
             <br />
         </div>
     ))}
-    <Link to="/">Go back to the homepage</Link>
+    <button className='button-link'><Link to="/" className='button-link'>&#60;&#60; Back to Homepage</Link></button>
   </Layout>
 )
 

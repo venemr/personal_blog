@@ -11,7 +11,7 @@ const CategoryPage = () => (
     <h1>Category Page</h1>
     {/* style={{ maxWidth: `500px`, marginBottom: `1.45rem` }} */}
     <p>My category page </p>
-    <Link to="/">Go back to the homepage</Link>
+    <button className='button-link'><Link to="/" className='button-link'>&#60;&#60; Back to Homepage</Link></button>
   </Layout>
 )
 

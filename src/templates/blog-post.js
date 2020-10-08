@@ -15,7 +15,9 @@ export default function Template({data}) {
             <h1>{post.frontmatter.title}</h1>
             <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date} |  In {post.frontmatter.tags} |  Last Updated on {post.frontmatter.updated_on}</h4>
             <div dangerouslySetInnerHTML={{__html: post.html}} />
-            <Link to="/blog">Go Back</Link>
+            <button className='read-more-link'>
+              <Link to="/blog" className='read-more-link'>&#60;&#60; Go Back</Link>
+            </button>  
         </div>
     </Layout>
     )

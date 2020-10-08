@@ -26,7 +26,7 @@ const ContactPage = () => (
       <p>I am happy to get in touch with you!</p>
       <p>Cheers,</p>
       <p>Mengru</p>
-      <Link to="/">Go back to the homepage</Link>
+      <button className='button-link'><Link to="/" className='button-link'>&#60;&#60; Back to Homepage</Link></button>
     </Container>
   </Layout>
 )
