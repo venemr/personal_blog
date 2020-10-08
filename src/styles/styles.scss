@@ -35,7 +35,7 @@ html, body {
 header {
     height: 80px; 
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0px;
     z-index: 10;
     .inner-header {
