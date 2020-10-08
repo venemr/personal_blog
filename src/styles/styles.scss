@@ -14,7 +14,7 @@ html, body {
 
 .container {
     width: 1640px; 
-    min-width: 1640px; 
+    min-width: 1200px; 
     margin: 0 auto; 
     @media(max-width: 1440px){
         width: 1280px; 
@@ -28,7 +28,12 @@ html, body {
         width: 768px; 
         min-width: 768px; 
     }
+}
 
+.profile-container {
+    width: 1640px; 
+    min-width: 1200px; 
+    margin-top: 100px;
 }
 
 //header 

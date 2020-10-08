@@ -6,8 +6,9 @@ import SEO from "../components/seo"
 
 const BlogPage = ({data}) => (
   <Layout>
+    <img src={'/marble.jpg'} alt={"Title Background"} style={{opacity: 0.5, margin: '-190px auto 0'}}/>
     <SEO title="Blog" />
-    <h1>Hello and welcome to my personal blog</h1>
+    <h1>My Personal Blog</h1>
     {data.allMarkdownRemark.edges.map(post => (
         <div key={post.node.id}>
             <h3>

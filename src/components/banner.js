@@ -1,14 +1,14 @@
 import React from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
-
+import { Container } from "react-bootstrap"
 
 const Banner = () => {
     const data = useStaticQuery(graphql`
     query {
       coverPageImage: file(relativePath: { eq: "white_coverpic.jpg"}) {
         childImageSharp {
-          fluid(maxWidth: 800) {
+          fluid(maxWidth: 1640) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -18,7 +18,7 @@ const Banner = () => {
 
     return (
       <div className="banner">
-        <div className="container">
+        <Container>
           <Img fluid={data.coverPageImage.childImageSharp.fluid}/>
           <div data-sal="fade"
                      data-sal-delay="300"
@@ -37,7 +37,7 @@ const Banner = () => {
               tabIndex="0"
             >
             </div>
-        </div>
+        </Container>
       </div>
         
         )

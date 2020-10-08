@@ -8,7 +8,7 @@ import {Container} from "react-bootstrap"
 
 const ContactPage = () => (
   <Layout>
-    <img src={'/marble.jpg'} alt={"Contact Me Background"} style={{opacity: 0.5}}/>
+    <img src={'/marble.jpg'} alt={"Title Background"} style={{opacity: 0.5}}/>
     <Container 
       style={{
         width: '70%',

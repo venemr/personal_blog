@@ -7,9 +7,10 @@ import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
+    <img src={'/marble.jpg'} alt={"Title Background"} style={{opacity: 0.5, margin: '-190px auto 0'}}/>
     <SEO title="About" />
     <h1>A Little More About Me...</h1>
-    <img alt='asd' src={'/napavalley.jpg'}/>
+    <img alt='asd' src={'/napavalley.jpg'} style={{width: '1000px'}}/>
     {/* style={{ maxWidth: `500px`, marginBottom: `1.45rem` }} */}
     <p>I created this blog as I wanted to step out of my comfort zone to learn some programming.</p>
     <p>I am currently working as data analyst at Twitch, and I'm interested in data analysis and machine learning. </p>

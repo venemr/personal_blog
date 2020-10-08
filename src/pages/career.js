@@ -9,6 +9,7 @@ import { Timeline, TimelineItem }  from '../../node_modules/vertical-timeline-co
 
 const CareerPage = () => (
   <Layout>
+    <img src={'/marble.jpg'} alt={"Title Background"} style={{opacity: 0.5, margin: '-190px auto 0'}}/>
     <SEO title="Career" />
     <h1>My Career Path</h1>
     

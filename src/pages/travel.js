@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 
 const TravelPage = () => (
   <Layout>
+    <img src={'/marble.jpg'} alt={"Title Background"} style={{opacity: 0.5, margin: '-190px auto 0'}}/>
     <SEO title="Travel" />
     <h1>Travel Page</h1>
     {/* style={{ maxWidth: `500px`, marginBottom: `1.45rem` }} */}

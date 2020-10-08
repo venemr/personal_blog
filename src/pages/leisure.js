@@ -3,23 +3,24 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import Image from "../components/image"
 
 const LeisurePage = () => (
   <Layout>
+    <img src={'/marble.jpg'} alt={"Title Background"} style={{opacity: 0.5, margin: '-190px auto 0'}}/>
     <SEO title="Leisure" />
-    {/* style={{ maxWidth: `500px`, marginBottom: `1.45rem` }} */}
     <h1>My Recommendations in Leisure Time</h1>
-    <p>
-       I am an indoor person and I enjoy spending most of my free time by myself, feeling cozy at home. 
+    <div>
+       <p>
+       I am an indoor person and I enjoy spending most of my free time staying at home, feeling cozy. 
        On weekends, I could happily sit in my pajamas all day in front of my laptop watching movies and TV shows or spending my night reading books on my bed.
-       I don't necessarily agree with this perception that reading a book makes you intellectual, while spending time watching TV shows make you a couch potato.  
-       I read books as well as watch TV shows, and I picture myself as a mix, an intellectual couch potato. 
-    </p>
+       I don't necessarily agree with the perception that reading a book makes you intellectual, while spending time watching TV shows make you a couch potato.  
+       I read books as well as watch TV shows, purposelessly but making myself happy, so I would probably picture myself as an intellectual couch potato. 
+       </p>
+    </div>
     <p>
        More often than not, I don't have any specific goals set in mind at the time when I'm picking things to read or watch or listen to, usually are quite random choices. 
-       But I often those are pretty helpful ways of relaxing and recharging myself, and sometimes it helps me broad my mind to gain some different perspectives from others. 
-       Here I'm keeping a running list of books, movies, TV shows, documentaries, and podcasts in my recommendation pool.
+       I often feel it is a pretty effective way of relaxing and recharging myself, and sometimes it also helps me broad my mind to gain some different perspectives from others. 
+       Here I'm keeping a running list of books, movies, TV shows, documentaries, and podcasts in my recommendation pool for sharing.
     </p>
     <p>Hope you enjoy! </p>
     <h2>Recommended Movies</h2>

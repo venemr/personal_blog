@@ -18,34 +18,16 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "profile.jpg"}) {
         childImageSharp {
-          fluid(maxWidth: 1200) {
-            ...GatsbyImageSharpFluid
+          fixed(width: 1200) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid}/>
+  return <Img fixed={data.placeholderImage.childImageSharp.fixed}/>
 }
 
 export default Image 
-
-// const Image2 = () => {
-//   const data = useStaticQuery(graphql`
-//     query {
-//       aboutmeImage: file(relativePath: { eq: "napavalley.jpg"}) {
-//         childImageSharp {
-//           fluid(maxWidth: 800) {
-//             ...GatsbyImageSharpFluid
-//           }
-//         }
-//       }
-//     }
-//   `)
-
-//   return <Img fluid={data.aboutmeImage.childImageSharp.fluid}/>
-// }
-
-// export default {Image, Image2}
 
