@@ -67,12 +67,14 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 甘い（あまい）：sweet <br/> 
 あか: red <br/> 
 青(あお): blue <br/>
+きたない：dirty <br/>
 
 
 よむ：read <br/>
 よる: night <br/> 
 のむ: drink <br/> 
 欲しい：want <br/>
+すき：like <br/>
 
 
 お酒（おさけ）: alcohol <br/>
@@ -102,6 +104,8 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 インド: India　<br/>
 ベルリン: Berlin　<br/>
 パリ: Paris　<br/>
+シカゴ：Chicago　<br/>
+ストックホルム: Stockholm <br/>
 
 
 僕（ぼく）: I <br/>

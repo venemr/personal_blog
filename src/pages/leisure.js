@@ -8,21 +8,20 @@ const LeisurePage = () => (
   <Layout>
     <img src={'/marble.jpg'} alt={"Title Background"} style={{opacity: 0.5, margin: '-190px auto 0'}}/>
     <SEO title="Leisure" />
-    <h1>My Recommendations in Leisure Time</h1>
+    <h1>My Recommendations for Leisure</h1>
     <div>
        <p>
-       I am an indoor person and I enjoy spending most of my free time staying at home, feeling cozy. 
-       On weekends, I could happily sit in my pajamas all day in front of my laptop watching movies and TV shows or spending my night reading books on my bed.
+       I am an indoor person and I enjoy spending most of my free time staying at home, feeling cozy in the small world within my bedroom. 
+       On the weekends, I could happily sit in my pajamas all day in front of my laptop watching movies and TV shows or spending the whole afternnon reading books on my bed.
        I don't necessarily agree with the perception that reading a book makes you intellectual, while spending time watching TV shows make you a couch potato.  
-       I read books as well as watch TV shows, purposelessly but making myself happy, maybe if I have to picture myself, I would be an intellectual couch potato LOL. 
+       I like reading books as well as watching TV shows, purposelessly but making myself happy, maybe if I have to picture myself, I would be an intellectual couch potato then ୧(๑•̀⌄•́๑)૭✧. 
        </p>
     </div>
     <p>
        More often than not, I don't have any specific goals set in mind at the time when I'm picking things to read or watch or listen to, usually are just random choices. 
-       I tend to immerse myself into different genres, and it is my own way of relaxing and recharging myself, and it also helps me broad my mind to gain some different perspectives from others. 
-       Here I'm keeping a running list of books, movies, TV shows, documentaries, and podcasts in my recommendation pool for sharing.
+       I enjoy immersing myself into various genres, and it is my own way of relaxing and recharging myself, and sometimes I feel it is beneficial to broad my mind and gain different perspectives from others as well. 
     </p>
-    <p>Hope you enjoy! </p>
+    <p>Here I'm keeping a running list of books, movies, TV shows, documentaries, and podcasts in my recommendation pool for sharing. Hope you enjoy! </p>
     <h2>Recommended Movies</h2>
     <p>君の名前は。(Your Name)</p>
     <p>デスノート (Death Note)</p>
