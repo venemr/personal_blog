@@ -14,12 +14,12 @@ const LeisurePage = () => (
        I am an indoor person and I enjoy spending most of my free time staying at home, feeling cozy. 
        On weekends, I could happily sit in my pajamas all day in front of my laptop watching movies and TV shows or spending my night reading books on my bed.
        I don't necessarily agree with the perception that reading a book makes you intellectual, while spending time watching TV shows make you a couch potato.  
-       I read books as well as watch TV shows, purposelessly but making myself happy, so I would probably picture myself as an intellectual couch potato. 
+       I read books as well as watch TV shows, purposelessly but making myself happy, maybe if I have to picture myself, I would be an intellectual couch potato LOL. 
        </p>
     </div>
     <p>
-       More often than not, I don't have any specific goals set in mind at the time when I'm picking things to read or watch or listen to, usually are quite random choices. 
-       I often feel it is a pretty effective way of relaxing and recharging myself, and sometimes it also helps me broad my mind to gain some different perspectives from others. 
+       More often than not, I don't have any specific goals set in mind at the time when I'm picking things to read or watch or listen to, usually are just random choices. 
+       I tend to immerse myself into different genres, and it is my own way of relaxing and recharging myself, and it also helps me broad my mind to gain some different perspectives from others. 
        Here I'm keeping a running list of books, movies, TV shows, documentaries, and podcasts in my recommendation pool for sharing.
     </p>
     <p>Hope you enjoy! </p>

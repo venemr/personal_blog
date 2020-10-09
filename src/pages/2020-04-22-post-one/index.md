@@ -26,13 +26,20 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 ありがとう：thank you <br/>
 どもありがとう：thank you very much <br/>
 おはよう: Good morning <br/>
-こんばんわ: Good evening  <br/>
+ごんばんは: Good evening  <br/>
 おやしみなさい: Good night  <br/>
 はい：yes <br/> 
 お元気ですか？（o genki desu ka）: How are you? <br/>
 いいえ、元気ではありません（iie, genki dewa arimasen）: no, I am not doing well. <br/> 
+こちらこそ：likewise.　<br/>
+どいたしまして: You are welcome. <br/>
+では、さようなら: well then, farewell. <br/>
+どうぞ: Thanks　<br/>
+どうも: Thanks　<br/>
+またね: bye　<br/>
 
 ## Conversations 
+何人ですか (nan nin desuka): Who are you? <br/>
 日本人です（nihonjin desu）: I am Japanese. <br/>
 学生です（gakusei desu）: I am a student. <br/>
 先生です（sensei desu): I am a teacher. <br/>
@@ -48,6 +55,7 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 わかりません（wa ka ri ma se n): i don't understand. <br/>
 はい、私の物（もの）です。(hai, watashi no mo no desu): yes, it is mine. <br/>
 はじめまして、中村と言います。(ha ji me ma shi te, nakamura to iimasu): nice to meet you, I'm Nakamura. <br/>
+トイレはどこですか？（to i re ha to ko desuka): Where is the bathroom? <br/>
 
 ## Vocabulary
 いち：one <br/>
@@ -73,8 +81,28 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 世界（せかい): world <br/>
 きっぷ: ticket <br/>
 がっこう: school <br/>
+果物（くだもの）: fruit <br/>
 
 アメリカ: The US <br/>
+バンクーバー: Vancouver <br/>
+アムステルダム: Amsterdam <br/>
+ソウル: Seoul <br/>
+ボストン: Boston <br/>
+ロスンゼルス: Los Angeles <br/>
+モスクワ: Moscow <br/>
+ニューヨーク: New York <br/>
+ケニア: Kenya <br/>
+アルゼンチン: Argentina <br/>
+カナヌ: Cannes <br/>
+コロンブア: Columbia <br/>
+ブエイスアイレス: Buenos Aires　<br/>
+ヴェネツィア: Venice　<br/>
+ワルシャワ: Warsaw　<br/>
+ポルトガル: Portugal　<br/>
+インド: India　<br/>
+ベルリン: Berlin　<br/>
+パリ: Paris　<br/>
+
 
 僕（ぼく）: I <br/>
 元気（げんき）<br/>
@@ -127,6 +155,9 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 | `シャ: sha`   |            | `シュ: shu`     | `シェ: she`        | `ショ: sho`     |
 | `チャ: cha` #:arrow_right: `ジャ: ja`   |            | `チュ: chu` #:arrow_right: `ジュ: ju`     | `チェ: che` #:arrow_right: `ジェ: je`        | `チョ: cho` #:arrow_right: `ジョ: jo`     |
 | `ヒャ: hya` #:arrow_right: `ビャ: bya` #:arrow_right: `ピャ: pya`   |            | `ヒュ: hyu` #:arrow_right: `ビュ: byu` #:arrow_right: `ピュ: pyu`     |         | `ヒョ: hyo` #:arrow_right: `ビョ: byo` #:arrow_right: `ピョ: pyo`     |
+
+
+ヴェ: ve 
 
 
 
