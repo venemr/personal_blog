@@ -1,5 +1,5 @@
 ---
-path: "/blog/post-two"
+path: "/blog/drawing-is-fun"
 date: "2020-05-22"
 title: "Procreate: Drawing is Fun" 
 author: "Mengru Fu"

@@ -1,5 +1,5 @@
 ---
-path: "/blog/post-one"
+path: "/blog/learn-japanese-using-duolingo"
 date: "2020-04-22"
 title: "Learn Japanese Using Duolingo" 
 author: "Mengru Fu"

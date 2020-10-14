@@ -1,5 +1,5 @@
 ---
-path: "/blog/post-three"
+path: "/blog/sharing-my-cocktail-recipes"
 date: "2020-05-25"
 title: "Sharing My Cocktail Recipes" 
 author: "Mengru Fu"
