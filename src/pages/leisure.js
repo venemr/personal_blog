@@ -32,7 +32,7 @@ const LeisurePage = () => (
     <p></p>
     <p></p>
     <h2>Recommended Books</h2>
-    <p>The Nightinggale</p>
+    <p>The Nightingale</p>
     <p>The Great Alone</p>
     <p>Born A Crime</p>
     <p></p>

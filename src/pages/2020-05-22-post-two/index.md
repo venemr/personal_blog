@@ -36,7 +36,7 @@ A practice painting to learn the usage of Distort and Gaussian Blur to create a 
 
 
 ### First Trial in Making Illustrations
-I've always wanted to try out illustration styled painting, and has been daydreaming to become an illustrator some day LOL. Here is my first trial in making a illustration doodling, and it is picturing a blue-haired girl who's watering her favorite plants at the window in a warmy sunday afternoon. 
+I've always wanted to try out illustration styled painting, and has been daydreaming to become an illustrator some day LOL. Here is my first trial in making an illustration doodling, and it is picturing a blue-haired girl who's watering her favorite plants at the window in a warmy sunday afternoon. 
 
 ![fifth img](/girl_watering_plant.jpg)
 
