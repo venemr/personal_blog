@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mengru's Blog`,
-    description: `personal sites to share precious life moments.`,
+    description: `A personal site to share precious life moments.`,
     author: `Mengru Fu`,
     menuLinks: [
       // {
@@ -58,6 +58,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`, 
+    `gatsby-plugin-styled-components`,
   // this (optional) plugin enables Progressive Web App + Offline functionality
   // To learn more, visit: https://gatsby.dev/offline
   // `gatsby-plugin-offline`,
