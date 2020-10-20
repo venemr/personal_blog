@@ -13,15 +13,15 @@ import Burger from "./burger"
 const RightNav = styled.ul `
   list-style: none; 
   display: flex; 
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
 
   li {
       padding: 1px 1px; 
   }
 
   @media (max-width: 768px) {
-      flex-flow: column nowrap; 
-      backgroud-color: lightpink; 
+      flex-flow: column wrap; 
+      background-color: lightpink; 
       position: fixed; 
       top: 0; 
       right: 0; 
@@ -35,14 +35,12 @@ const RightNav = styled.ul `
   }
 `
 
-const StyledRightNav = ({link}) => {
+const StyledRightNav = ({ menuLinks }) => {
   return (
     <RightNav>
-      <li key={link.name}>
-        <Link to={link.link}>
-          {link.name}
-        </Link>
-      </li>
+      {menuLinks.map(link => (
+                <li><Link to={link.link}>{link.name}</Link></li>
+              ))}
     </RightNav>       
   )
 }
@@ -72,11 +70,9 @@ const Header = ({ siteTitle, menuLinks }) => (
           </div>
           <div>
 
-          <RightNav>
-          {menuLinks.map(link => (
-                <StyledRightNav link={link}/>
-              ))}
-          </RightNav>
+
+          <StyledRightNav menuLinks={menuLinks}/>
+
           
         </div>
         </div>
