@@ -72,12 +72,71 @@ header {
                         margin-right: 0px;
                     }
                 }
+                @media (max-width: 768px) {
+                    display: none;
+                }
             }
         }
     }
 
 }
 
+//dropdown
+.dropdown-menu{ 
+    background-color: transparent;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+
+    .dropdown-toggle {
+        background-color: transparent;
+        border: none;
+        text-decoration: none;
+        font-size: 1rem;
+        letter-spacing: 1.75px;
+        font-family: $font;
+        text-transform: uppercase;
+        color: black;
+        position: relative;
+        margin: -20px 10px;
+        outline: none;
+        transition: 100ms linear;
+      }
+  }
+
+// for rightnav bar without children
+.rightnav-bar {
+    color: black; 
+    text-decoration: None;
+    font-size: 1rem;
+    font-family: $font;
+    text-transform: uppercase;
+    padding: 0px 15px;
+}
+
+// for rightnav bar with children
+.rightnav-dropdown-menu{ 
+    background-color: transparent;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+
+    .rightnav-dropdown-toggle {
+        background-color: transparent;
+        border: none;
+        text-decoration: none;
+        font-size: 1rem;
+        letter-spacing: 1.75px;
+        font-family: $font;
+        text-transform: uppercase;
+        color: black;
+        position: relative;
+        margin: 0px 10px 10px;
+        outline: none;
+        transition: 100ms linear;
+      }
+  }
+  
 //banner 
 .banner {
     display: flex;

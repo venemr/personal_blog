@@ -5,45 +5,7 @@ import {Dropdown} from "react-bootstrap"
 
 import "../styles/styles.scss"
 
-import styled from "styled-components";
-
 import Burger from "./burger"
-
-//right nav menu
-const RightNav = styled.ul `
-  list-style: none; 
-  display: flex; 
-  flex-flow: column wrap;
-
-  li {
-      padding: 1px 1px; 
-  }
-
-  @media (max-width: 768px) {
-      flex-flow: column wrap; 
-      background-color: lightpink; 
-      position: fixed; 
-      top: 0; 
-      right: 0; 
-      height: 100vh; 
-      width: 300px; 
-      padding-top: 3.5rem; 
-
-      li {
-          color: white; 
-      }
-  }
-`
-
-const StyledRightNav = ({ menuLinks }) => {
-  return (
-    <RightNav>
-      {menuLinks.map(link => (
-                <li><Link to={link.link}>{link.name}</Link></li>
-              ))}
-    </RightNav>       
-  )
-}
 
 const Header = ({ siteTitle, menuLinks }) => (
                        
@@ -56,9 +18,8 @@ const Header = ({ siteTitle, menuLinks }) => (
             </Link>
           </div>
           <div>
-            <Burger/>
+            <Burger menuLinks={menuLinks}/>
           </div>
-          {/* nav={(nav) => nav ? "translateX(0)": "translateX(100%)"} */}
           <div className="navigation">
             <nav>
               <ul style={{ display: "flex", flex: 1}} > 
@@ -68,32 +29,24 @@ const Header = ({ siteTitle, menuLinks }) => (
               </ul>
             </nav>
           </div>
-          <div>
-
-
-          <StyledRightNav menuLinks={menuLinks}/>
-
-          
         </div>
-        </div>
-
       </div>
     </header>
 ) 
 
 
-const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
-  <Link
-    href=""
-    ref={ref}
-    onClick={(e) => {
-      e.preventDefault();
-      onClick(e);
-    }}
-  >
-    {children}
-  </Link>
-));
+// const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
+//   <Link
+//     href=""
+//     ref={ref}
+//     onClick={(e) => {
+//       e.preventDefault();
+//       onClick(e);
+//     }}
+//   >
+//     {children}
+//   </Link>
+// ))
 
 
 const HeaderItem = ({link}) => {
@@ -132,12 +85,10 @@ const HeaderItem = ({link}) => {
     )    
   
     return (
-      <li style={{display: 'inline'}} key={link.name}>
-        <Dropdown>
-            <Dropdown.Toggle as={CustomToggle}>{link.name}</Dropdown.Toggle>
+        <Dropdown className="dropdown-menu">
+            <Dropdown.Toggle className="dropdown-toggle">{link.name}</Dropdown.Toggle>
             <Dropdown.Menu>{children}</Dropdown.Menu>
         </Dropdown>
-      </li>
     )
   }
 

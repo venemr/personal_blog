@@ -1,6 +1,8 @@
 import React from "react"; 
 import styled from "styled-components";
 
+import RightNav from "./rightnav";
+
 //hamburger menu 
 const MenuIcon = styled.div `
   position: fixed; 
@@ -44,15 +46,18 @@ const MenuIcon = styled.div `
   }
 `
 
-const Burger = () => {
+const Burger = ({ menuLinks }) => {
   const [open, SetOpen] = React.useState(false);
 
   return (
+    <>
     <MenuIcon open={open} onClick={() => SetOpen(!open)} > 
       <div/>
       <div/>
       <div/>
     </MenuIcon>
+    <RightNav menuLinks={menuLinks} open={open} onClick={() => SetOpen(!open)}/>
+    </>
   )
   
 }
