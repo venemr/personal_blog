@@ -12,23 +12,23 @@ html, body {
     font-size: 16px; 
 }
 
-// .container {
-//     width: 100%; 
-//     // min-width: 1200px; 
-//     margin: 0 auto; 
-//     @media(max-width: 1440px){
-//         width: 1280px; 
-//         min-width: 1280px; 
-//     }
-//     @media(max-width: 1280px){
-//         width: 976px; 
-//         min-width: 976px; 
-//     }
-//     @media(max-width: 976px){
-//         width: 768px; 
-//         min-width: 768px; 
-//     }
-// }
+.container {
+    width: 100%; 
+    // min-width: 1200px; 
+    margin: 0 auto; 
+    @media(max-width: 1440px){
+        width: 1280px; 
+        min-width: 1280px; 
+    }
+    @media(max-width: 1280px){
+        width: 976px; 
+        min-width: 976px; 
+    }
+    @media(max-width: 976px){
+        width: 768px; 
+        min-width: 768px; 
+    }
+}
 
 .profile-container {
     width: 100%; 
@@ -140,7 +140,6 @@ header {
 // for rightnav bar without children
 .rightnav-bar {
     text-align: left;
-    position: relative; 
 
     .rightnav {
         color: black; 

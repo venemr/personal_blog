@@ -23,7 +23,10 @@ const ColoredLine = ({ color }) => (
 const IndexPage = () => (
   <Layout>
     <SEO title="Homepage" />
-    <Banner /> 
+    <div>
+       <Banner /> 
+    </div>
+    
    
     <div className='profile-container'>
     
