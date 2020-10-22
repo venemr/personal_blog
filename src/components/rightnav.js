@@ -9,11 +9,9 @@ const RightNavUl = styled.ul `
   list-style: none; 
   flex-flow: column wrap;
   display: none;
-
   li {
       padding: 1px 1px; 
   }
-
   @media (max-width: 768px) {
       flex-flow: column wrap; 
       background-color: lightpink; 
@@ -29,8 +27,10 @@ const RightNavUl = styled.ul `
   }
 `
 
+
+
 const RightNavItem = ({link}) => {
-    // const [isShown, setIsShown] = React.useState(false);
+    const [isShown, setIsShown] = React.useState(false);
   
     // the map is doing this...
     // [{name: "drama"}, {name:"game"}] => [<li>"drama"</li>, <li>"game"</li>]
@@ -67,10 +67,16 @@ const RightNavItem = ({link}) => {
       )    
     
       return (
+          // <Dropdown className="rightnav-dropdown-menu">
+          //     <Dropdown.Toggle className="rightnav-dropdown-toggle">{link.name}</Dropdown.Toggle>
+          //     <Dropdown.Menu>{children}</Dropdown.Menu>
+          // </Dropdown>
+
+          //remove Dropdown.Toggle to fix overlay issues
           <Dropdown className="rightnav-dropdown-menu">
-              <Dropdown.Toggle className="rightnav-dropdown-toggle">{link.name}</Dropdown.Toggle>
-              <Dropdown.Menu>{children}</Dropdown.Menu>
-          </Dropdown>
+          <button onClick={() => setIsShown(!isShown)} className="rightnav-dropdown-toggle">{link.name}</button>
+          {isShown && <li className="rightnav-dropdown-toggle">{children}</li>}
+          </Dropdown> 
       )
     }
   

@@ -15,8 +15,8 @@ const AboutPage = () => (
     <p>I created this blog as I wanted to step out of my comfort zone to learn some programming.</p>
     <p>I am currently working as a data analyst at Twitch, and I'm interested in data analysis and machine learning. </p>
     <p>In my spare time, I'm passionate about fashion styling and food exploring.</p>
-    <p>I love music and I have a variety of favorite musicians with diverse genres, Illenium, Novo Amor, Kenshi Yonezu, Zoey Yung, Chace etc.. So many that I cannot name them all!!!</p>
-    <p>During the COVID-19 Pandemic, I've been developing new hobbies at home, such as drawing, reading, watching movies and playing legos, which have helped me maintain some inner peace during this overwhelming period.</p>
+    <p>I love music and I have a variety of favorite musicians with diverse genres, Illenium, Novo Amor, Kenshi Yonezu, Zoey Yung, Chace etc. So many that I cannot name them all!!!</p>
+    <p>During the Covid-19 pandemic, I've been developing new hobbies at home, such as drawing, reading, watching movies and playing legos, to stay productive and gain some inner peace during this overwhelming period.</p>
     <button className='button-link'><Link to="/" className='button-link'>&#60;&#60; Back to Homepage</Link></button>
   </Layout>
 )

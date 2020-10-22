@@ -3,14 +3,14 @@ path: "/blog/learn-japanese-using-duolingo"
 date: "2020-04-22"
 title: "Learn Japanese Using Duolingo" 
 author: "Mengru Fu"
-updated_on: "2020-10-06"
+updated_on: "2020-10-22"
 featuredImage: "/thousand_cranes.jpg"
 tags: "Hobbies"
 ---
 
-Recently I've been learning Japanese as my third language using an app called Duolingo. I'm super passionate about learning Japanese with a hope that I can have basic conversations next time visiting Japan and more importantly, I can better understand Japanese songs and animes which would be super cool.
+Recently I've been learning Japanese as my third language using an app called Duolingo. I'm interested in learning it with a hope that I can have basic conversations next time visiting Japan and more wishfully, I can better understand Japanese songs and animes which would be super cool.
 
-The followings are summarized notes based on my recent learnings from Duolingo: 
+In this blog, I'm compiling a running list of my study notes from Duolingo to keep my memory refreshed.  
 
 ![sushi img](/peppapig.jpg)
 
@@ -57,26 +57,50 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 はじめまして、中村と言います。(ha ji me ma shi te, nakamura to iimasu): nice to meet you, I'm Nakamura. <br/>
 トイレはどこですか？（to i re ha to ko desuka): Where is the bathroom? <br/>
 
+これはみずです。: this is water. <br/>
+それは何ですか？: what is it? <br/>
+それが水です。: That is water. <br/>
+それをください。That one, please. <br/>
+りんごをください。Apple, please. <br/>
+お茶を飲みます。: I drink tea. <br/>
+どれが水ですか？: Which one is water? <br/>
+どれを飲みますか？: Which one will you drink? <br/>
+どれを食べますか？: Which one will you eat? <br/>
+ご飯は食べません。: I do not eat rice. <br/>
+いただきます。Let's eat. <br/>
+じゃあ、ごちそうさまでした。（ja-a, go chi o u sa ma de shi ta): Well then, thank you for the meal. <br/>
+
 ## Vocabulary
+
+### Numerals
+れい：zero <br/>
 いち：one <br/>
 に：two <br/>
 さん：three <br/> 
 よん：four <br/>
+ご：five <br/>
+ろく：six <br/>
+しち：seven <br/>
+はち：eight <br/>
+きゅう(kyu u): nine <br/>
+きょう(kyo u): today <br/>
+じゅう：ten <br/>
 
-
+### Adjectives
 甘い（あまい）：sweet <br/> 
 あか: red <br/> 
 青(あお): blue <br/>
 きたない：dirty <br/>
+はれ：sunny <br/>
 
-
+### Verbs
 よむ：read <br/>
 よる: night <br/> 
 のむ: drink <br/> 
 欲しい：want <br/>
 すき：like <br/>
 
-
+### Nouns
 お酒（おさけ）: alcohol <br/>
 寿司（すし）：sushi <br/> 
 テリヤキ: teriyaki <br/>
@@ -84,7 +108,33 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 きっぷ: ticket <br/>
 がっこう: school <br/>
 果物（くだもの）: fruit <br/>
+せなか：back <br/>
+とり：bird <br/>
+みみ：ear <br/>
+め：eye <br/>
+ふゆ：winter <br/>
+なつ：summer <br/>
+おちゃ：tea <br/>
+みず：water <br/>
+ごはん：rice <br/>
+肉（にく）：meat <br/>
+野菜（やさい）：vegetable <br/>
+魚（さかな）：fish <br/>
+パン：bread <br/>
+りんご：apple <br/>
+ちず：map <br/>
+かぜ：wind <br/>
+かばん：bag <br/>
+でんわ：phone <br/>
+べんとう：bentobox <br/>
+えんぴつ：pencil <br/>
 
+### Pronouns
+これ：this <br/>
+それ：that <br/>
+どれ: which <br/>
+
+### Country or City Names
 アメリカ: The US <br/>
 バンクーバー: Vancouver <br/>
 アムステルダム: Amsterdam <br/>
@@ -106,18 +156,25 @@ The followings are summarized notes based on my recent learnings from Duolingo:
 パリ: Paris　<br/>
 シカゴ：Chicago　<br/>
 ストックホルム: Stockholm <br/>
+フィリビン: Philippines <br/>
+ローム (ro-mu): Rome <br/>
+オーストラリア(o-su to ra ri a): Australia <br/>
+アジア: Asia <br/>
 
-
-僕（ぼく）: I <br/>
-元気（げんき）<br/>
-出身（しゅつしん）shusshin: from<br/> 
-
+### Person's Names
 茂（しげる）：shigeru (name) <br/>
 中村（なかむら）: nakamura (name) <br/>
 田中（たなか）：tanaka (name) <br/>
 
 
-## Character
+### Others
+僕（ぼく）: I <br/>
+元気（げんき）<br/>
+出身（しゅつしん）shusshin: from<br/> 
+
+
+
+## Characters
 |Hiragana                                                            |   
 | :--------- | :---------- | :----------- | :---------- | :----------- |
 | `あ：a`     | `い：i`      | `う：u`      | `え：e`      | `お：o`      |  
