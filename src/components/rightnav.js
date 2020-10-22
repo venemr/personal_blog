@@ -76,8 +76,8 @@ const RightNavItem = ({link}) => {
   
   
     return (
-      <li style={{display: 'inline'}} key={link.name}>
-        <Link to={link.link} className='rightnav-bar'>
+      <li style={{display: 'inline'}} key={link.name} className="rightnav-bar">
+        <Link to={link.link} className="rightnav">
           {link.name}
         </Link>
       </li>

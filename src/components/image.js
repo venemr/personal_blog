@@ -18,15 +18,15 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "profile.jpg"}) {
         childImageSharp {
-          fixed(width: 1200) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed}/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid}/>
 }
 
 export default Image 

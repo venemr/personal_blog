@@ -28,6 +28,10 @@ const LeisurePage = () => (
     <p>重庆森林 (Chungking Express)</p>
     <p>风声 (The Message)</p>
     <p>Annie Hall</p>
+    <p>Midnight in Paris</p>
+    <p>A Rainy Day in New York</p>
+    <p>The Trial of the Chicago 7</p>
+    <p>Molly's Game</p>
     <p></p>
     <p></p>
     <p></p>
@@ -39,6 +43,7 @@ const LeisurePage = () => (
     <p></p>
     <p></p>
     <h2>Recommended TV Shows</h2>
+    <p>Terrace House</p>
     <p>Signal</p>
     <p>The Kingdom</p>
     <p>Stranger</p>
