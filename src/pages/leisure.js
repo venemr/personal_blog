@@ -23,43 +23,51 @@ const LeisurePage = () => (
     </p>
     <p>Here I'm keeping a running list of books, movies, TV shows, documentaries, and podcasts in my recommendation pool for sharing. Hope you enjoy! </p>
     <h2>Recommended Movies</h2>
-    <p>君の名前は。(Your Name)</p>
-    <p>デスノート (Death Note)</p>
-    <p>重庆森林 (Chungking Express)</p>
-    <p>风声 (The Message)</p>
-    <p>Annie Hall</p>
-    <p>Midnight in Paris</p>
-    <p>A Rainy Day in New York</p>
-    <p>The Trial of the Chicago 7</p>
-    <p>Molly's Game</p>
+    <p><strong>君の名前は。</strong>(Your Name) <span role="img" aria-label="star">🌟🌟🌟🌟🌟</span></p>
+    <p><strong>デスノート</strong> (Death Note) <span role="img" aria-label="star">🌟🌟🌟🌟</span></p>
+    <p><strong>重庆森林</strong> (Chungking Express) <span role="img" aria-label="star">🌟🌟🌟🌟</span></p>
+    <p><strong>风声</strong> (The Message) <span role="img" aria-label="star">🌟🌟🌟🌟</span></p>
+    <p><strong>Annie Hall</strong> <span role="img" aria-label="star">🌟🌟🌟🌟🌟</span></p>
+    <p><strong>Midnight in Paris</strong> <span role="img" aria-label="star">🌟🌟🌟🌟</span></p>
+    <p><strong>A Rainy Day in New York</strong> <span role="img" aria-label="star">🌟🌟🌟🌟</span></p>
+    <p><strong>The Trial of the Chicago 7</strong> <span role="img" aria-label="star">🌟🌟🌟🌟🌟</span></p>
+    <p><strong>Molly's Game</strong> <span role="img" aria-label="star">🌟🌟🌟🌟</span></p>
     <p></p>
     <p></p>
     <p></p>
     <h2>Recommended Books</h2>
-    <p>The Nightingale</p>
-    <p>The Great Alone</p>
-    <p>Born A Crime</p>
+    <p><strong><a className="text-link" href="https://www.amazon.com/Nightingale-Novel-Kristin-Hannah/dp/1250080401">The Nightingale</a></strong> by Kristin Hannah</p>
+    <p><strong><a className="text-link" href="https://www.amazon.com/Great-Alone-Novel-Kristin-Hannah/dp/1250229537/ref=sr_1_3?dchild=1&keywords=the+great+alone&qid=1604895909&sr=8-3">The Great Alone</a></strong> by Kristin Hannah</p>
+    <p><strong><a className="text-link" href="https://www.amazon.com/Born-Crime-Stories-African-Childhood/dp/0399588191/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1604895976&sr=8-2">Born A Crime</a></strong> by Trevor Noah</p>
+    <p><strong><a className="text-link" href="https://www.amazon.com/Bel-Canto-Patchett-Ann-Paperback/dp/B009O3DG8M/ref=sr_1_3?dchild=1&keywords=bel+canto&qid=1604896030&sr=8-3">Bel Canto</a></strong> by Ann Patchett</p>
     <p></p>
     <p></p>
     <p></p>
     <h2>Recommended TV Shows</h2>
-    <p>Terrace House</p>
-    <p>Signal</p>
-    <p>The Kingdom</p>
-    <p>Stranger</p>
-    <p>沉默的真相 (The Long Night)</p>
-    <p>Emily in Paris</p>
+    <p><strong>Terrace House</strong></p>
+    <p><strong>Signal</strong></p>
+    <p><strong>The Kingdom</strong></p>
+    <p><strong>Stranger</strong></p>
+    <p><strong>沉默的真相</strong> (The Long Night)</p>
+    <p><strong>Emily in Paris</strong></p>
+    <p><strong>The Queen's Gambit</strong></p>
+    <p><strong>Start-up</strong></p>
+    <p><strong>Flea Bag</strong></p>
+    <p><strong>The Crown</strong></p>
     <p></p>
     <p></p>
     <p></p>
     <h2>Recommended Documentaries</h2>
-    <p>Tiger King</p>
-    <p>The Social Dilemma</p>
+    <p><strong>Tiger King</strong></p>
+    <p><strong>The Social Dilemma</strong></p>
+    <p><strong>BLACKPINK: Light Up the Sky</strong></p>
+    <p><strong>Knock Down the House</strong></p>
+    <p><strong>Snowden</strong></p>
     <p></p>
     <p></p>
-    <p></p>
-    <h2>Recommended Podcast</h2>
-    <p>After Hours</p>
+    <h2><strong>Recommended Podcast</strong></h2>
+    <p><strong>After Hours</strong></p>
+    <p><strong>The World</strong></p>
     <p></p>
     <p></p>
     <p></p>

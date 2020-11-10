@@ -46,7 +46,7 @@ Meanwhile, I'm working on making a collection of cocktail illustrations for my l
 
 
 ### Mojito
-
+<img src="/mojito.jpg" alt="mojito img" width="700px">
 
 #### Ingredients 
 * 3 mint leaves <br/>
