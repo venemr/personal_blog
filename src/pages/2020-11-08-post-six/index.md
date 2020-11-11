@@ -8,10 +8,10 @@ featuredImage: "/your_name.jpg"
 tags: "Web Development"
 ---
 
-In this blog, I would like to talk about how to build a full stack web application to generate dynamic data reports at the front-end HTML page by querying the MySQL database from the back-end Flask server as a beginner. 
+In this blog, I would like to talk about how to build a full stack web application to generate dynamic data reports in the front-end HTML page by querying the MySQL database from the back-end Flask server as a beginner. 
 
 ### Set up Flask Server
-Flask is a lightweight python-based web application framework, and it is super straight forward to get it installed on your local machine by running the following command: 
+Flask is a lightweight python-based web application framework, and it is straight forward to get installed on your local machine by running the following command: 
 
 ``` 
 $ pip install flask
@@ -19,7 +19,7 @@ $ pip install flask
 <br>
 
 ### Structure of a Basic Flask Web App
-<p>The folder structure of a basic flask web application will look like the following: </p>
+<p>Before jumping into the implementation details, I would like to show how the file structure of a basic flask web application will look like: </p>
 <img src="/folder_structure.jpg" alt="folder structure img">
 
 * #### app.py
@@ -27,7 +27,7 @@ $ pip install flask
 <br>
 
 * #### service folder
-<p>The service folder contains schema.sql and sql_client.py file and is mainly used to provide the database service, by constructing the database schemas and generating data tables.</p>
+<p>The service folder contains schema.sql and sql_client.py file and is mainly used to provide the database service, with python scripts connecting to MySQL to construct the database schemas and tables, and to fetch data from MySQL database.</p>
 <br>
 
 * #### static folder
@@ -37,7 +37,7 @@ $ pip install flask
 * #### templates folder
 <p>The templates folder contains all the HTML files.</p>
 
-Within app.py, you can make Flask return an HTML template or a JSON object, and you'll need to import SqlClient class to enable the database querying. 
+Within app.py, you can make Flask return an HTML template or a JSON object, and you'll need to import SqlClient class, which is defined in sql_client.py to enable the database querying service. 
 
 ```python 
 from flask import Flask, jsonify, render_template, request, json
@@ -45,7 +45,7 @@ from service.db.sql_client import SqlClient
 application = Flask(__name__)
 
 @app.route('/')
-def hello_word():
+def hello_world():
     return render_template('index.html')
 
 
@@ -54,7 +54,7 @@ if __name__ == '__main__':
 ```
 <br>
 
-To run the web application on your localhost, you can run the following command, and then open the url in the browser to test your web app:   
+To run the web application on your localhost, conduct the following command in the terminal, and then open the url in the browser to test the web application:   
 ```
 $ python app.py
 ```
@@ -78,13 +78,13 @@ $ docker ps
 $ docker exec -it <container-id> /bin/bash
 ``` 
 <br>
-When executing the command above, you will have an interactive bash termincal where you can execute all the commands you want. From here you can enter the MySql instance in which you can run sql query commands directly: 
+When executing the command above, you will have an interactive bash terminal where you can execute all the commands you want. From here enter the MySql instance in which you can run sql query commands directly: 
 
 ```
 $ mysql -uroot -p<my-secret-pw>
 ```
 <br>
-Within MySQL instance, you may also want to change the user privileges to ensure a full access to MySQL database tables: 
+Within MySQL instance, you may also want to change the user privileges to ensure a full access to MySQL database: 
 
 ```
 mysql> GRANT ALL ON *.* TO 'root'@'%';
@@ -125,7 +125,7 @@ class SqlClient:
 
 As many of you might know, jQuery is a JavaScript library, which allows you to select DOM elements using the CSS selectors syntax. To me, jQuery works as a bridge that connects the two sides and plays its role as a middleman who actively communicates between the front end and the back end service.
 
-Although jQuery has became much less popular in recent years, it is still playing a big part in the JavaScript ecosystem and has been used by a lot of people, and I personally found it is very user friendly and super simple to pick up, especially if you are new to web development and are looking for a quick way to learn and build an interactive web application. I learned jQuery from the ground up in a week and was amazed by how powerful the jQuery functions are, and I managed to build my first (super naive) full-stack web application by reading the API documentation. 
+Although jQuery has became much less popular in recent years, it is still playing a big part in the JavaScript ecosystem and has been used by a lot of people, and I personally found it is very user friendly and simple enough to pick up, especially if you are new to web development and are looking for a quick way to learn and build an interactive web application. I learned jQuery from the ground up in a week and was amazed by how powerful the jQuery functions are, and I managed to build my first (super naive) full-stack web application by reading the API documentation. 
 
 In the following part, I would like to talk through some handy use cases with the implementation details to generate dynamic reports.    
 
@@ -133,7 +133,7 @@ In the following part, I would like to talk through some handy use cases with th
 
 * <h4>report.js</h4> 
 
-In JavaScript, you can use bootstrapTable() method to populate a table with <b>columns</b> specified, by querying data through an <b>url</b> to get the JSON object from the backend Flask server. The bootstrapTable() method is powerful because it allows many customizeable table options, which can be found in this [Bootstrap API Doc](https://bootstrap-table-docs3.wenzhixin.net.cn/documentation/).
+In JavaScript, you can use <b>bootstrapTable()</b> method to populate a table with <b>columns</b> specified, by querying data through an <b>url</b> to get the JSON object from the backend Flask server. The bootstrapTable() method is powerful because it allows many customizeable table options, which can be found in this [Bootstrap API Doc](https://bootstrap-table-docs3.wenzhixin.net.cn/documentation/).
 
 ```javascript
 $("#report1-table1").bootstrapTable({
@@ -242,7 +242,7 @@ function createManufacturerList(id) {
 
 ### Use Case 3: Generate a Filtered Bootstrap Table Based on User Selection
 
-In Use Case 3, the goal is to generate a filtered report which only returns the result for a specific manufacturer based on the user selection, and the process will involve 5 steps: 
+In Use Case 3, the goal is to generate a filtered report which only returns the result from a specific manufacturer based on the user selection, and the process will involve 5 steps: 
 1. Get the user selected manufacturer name from the HTML page based on a user click; 
 2. Send the user selected manufacturer name to the backend; 
 3. Run a custom query in database to return the filtered output and store the result in JSON object; 
@@ -252,8 +252,9 @@ In Use Case 3, the goal is to generate a filtered report which only returns the 
 Initially I had no clue of how to handle this situation because it sounds very complicated, until I found the magic function AJAX and it completely blows my mind. #:bowtie: 
 
 * <h4>report.js</h4>
-<p>In JavaScript, use "on change" function to capture the selected manufacturer name and return it as a dictionary; then use AJAX function to post the JSON string object to the backend -- if succeeded, return the JSON object from the backend to the frontend, and present the returned object in a Bootstrap table. </p>
-<p>It is worth mentioning to use "load" method to ensure that the Bootstrap table is reloaded each time with a new user selection, and the old rows from the previous Bootstrap table will be removed.</p>
+<p>AJAX is a short term of <b>"Asynchronous JavaScript and XML"</b> and it is a means of loading data from a server without requiring a page reload. The <b>$.ajax()</b> method in jQuery runs asynchronously and returns before the request is finished, aka before the success callback runs. Therefore, we can use the returned result as a parameter to be parsed in the success function to return a Bootstrap Table to present the JSON object returned from the backend.</p>
+<p>In JavaScript, use <b>.change()</b> function to capture the selected manufacturer name and return it as a dictionary; then use AJAX function to post the JSON string object to the backend -- if succeeded, return the JSON object from the backend to the frontend, and present the returned object in a Bootstrap table. </p>
+<p>It is worth mentioning to use <b>"load"</b> method to ensure that the Bootstrap table is reloaded each time with a new user selection, and the old rows from the previous Bootstrap table will be removed.</p>
 
 ```javascript
 //hide table 2, view detail button, table 3 by default
@@ -312,11 +313,11 @@ def get_report1_table2():
 <br>
 
 * <h4>report.html</h4>
-   <p>To implement the "load" method in Bootstrap Table, we need to ensure that only the data by itself is parsed in the bootstrapTable() function, without column names specified. Therefore, we have to make a corresponding change of the table element in HTML as following. </p>
+   <p>To implement the "load" method in Bootstrap Table, we need to ensure that <b>only the data by itself</b> is parsed in the bootstrapTable() function, without column names specified. Therefore, we have to make a corresponding change of the table element in HTML as follows. </p>
 
-   The column names will be specified in table header elements in HTML (instead of in bootstrapTable() in Use Case 1) and we have to add the data-toggle option in the table element to make it working based on [Usage API doc](https://bootstrap-table.com/docs/getting-started/usage/).
+   The column names will be specified in table header elements in HTML (instead of in bootstrapTable() in Use Case 1) and we have to add the <b>data-toggle</b> option in the table element to make it working based on [Usage API doc](https://bootstrap-table.com/docs/getting-started/usage/).
 
-   <p>Since the column names are specified in HTML, by default an empty table with column names specified will be shown upon the page is rendered. As a workaround, we can use .hide() function in JavaScript to hide the empty columns when the HTML page is rendered for the first time (Stated in the first code block in report.js), and make the table show again by using .show() when an non-empty JSON object is returned. </p>
+   <p>Since the column names are specified in HTML, by default an empty table with column names specified will be shown upon the page is rendered. As a workaround, we can use <b>.hide()</b> function in JavaScript to hide the empty columns when the HTML page is rendered for the first time (as stated in the first code block in report.js), and make the table show again by using <b>.show()</b> function if an non-empty JSON object is returned within the success function. </p>
 
 ```html
 <table id='report1-table2' data-toggle="table">
@@ -331,7 +332,9 @@ def get_report1_table2():
 <br>
 
 ### Recap 
-I personally found it's very interesting experience to build a full stack web application from scratch, and I enjoy the process of exploring new tools and languages. I believe in learning-by-doing, but admittedly, I did spend a lot of time googling things out and trying to understand every single pieces to make things working, which is why I wanted to write this blog post to compile what I've learned during the process and to present some common use cases that a new web developer might encounter but have no clue of how to tackle them in the first place. #:beers:
+I personally found it's very interesting experience to build a full stack web application from scratch, and I enjoy the process of exploring new tools and languages during the web development, and I got excited every time seeing the web application is functioning as I would expect. 
+
+I believe in learning-by-doing, but admittedly, I did spend a lot of time googling things out and trying to understand every single piece to make the whole thing working, which is why I wanted to write this blog post to compile what I've learned during the process and to present some common use cases that a new web developer might encounter but have no clue of how to tackle them in the first place. #:beers:
 <br>
 <br>
 <br>
