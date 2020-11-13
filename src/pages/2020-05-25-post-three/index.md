@@ -61,7 +61,7 @@ Meanwhile, I'm working on making a collection of cocktail illustrations for my l
 **Step 4:** add sprite to fill up the glass <br/>
 
 ### Whiskey Sour
-
+<img src="/whiskey_sour.jpg" alt="whiskey sour img" width="700px">
 
 #### Ingredients 
 * 2 ounces bourbon <br/>

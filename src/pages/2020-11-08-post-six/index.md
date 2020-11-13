@@ -133,7 +133,7 @@ In the following part, I would like to talk through some handy use cases with th
 
 * <h4>report.js</h4> 
 
-In JavaScript, you can use <b>bootstrapTable()</b> method to populate a table with <b>columns</b> specified, by querying data through an <b>url</b> to get the JSON object from the backend Flask server. The bootstrapTable() method is powerful because it allows many customizeable table options, which can be found in this [Bootstrap API Doc](https://bootstrap-table-docs3.wenzhixin.net.cn/documentation/).
+In JavaScript, you can use <b>bootstrapTable()</b> method to populate a table with <b>columns</b> specified, by querying data through an <b>url</b> to get the JSON object from the backend Flask server. The bootstrapTable() method is powerful because it allows many customizable table options, which can be found in this [Bootstrap API Doc](https://bootstrap-table-docs3.wenzhixin.net.cn/documentation/).
 
 ```javascript
 $("#report1-table1").bootstrapTable({
@@ -317,7 +317,7 @@ def get_report1_table2():
 
    The column names will be specified in table header elements in HTML (instead of in bootstrapTable() in Use Case 1) and we have to add the <b>data-toggle</b> option in the table element to make it working based on [Usage API doc](https://bootstrap-table.com/docs/getting-started/usage/).
 
-   <p>Since the column names are specified in HTML, by default an empty table with column names specified will be shown upon the page is rendered. As a workaround, we can use <b>.hide()</b> function in JavaScript to hide the empty columns when the HTML page is rendered for the first time (as stated in the first code block in report.js), and make the table show again by using <b>.show()</b> function if an non-empty JSON object is returned within the success function. </p>
+   <p>Since the column names are specified in HTML, by default an empty table with column names specified will be shown upon the page is rendered. As a workaround, we can use <b>.hide()</b> function in JavaScript to hide the empty columns when the HTML page is rendered for the first time (as stated in the first code block in report.js), and make the table show again by using <b>.show()</b> function if a non-empty JSON object is returned within the success function. </p>
 
 ```html
 <table id='report1-table2' data-toggle="table">
